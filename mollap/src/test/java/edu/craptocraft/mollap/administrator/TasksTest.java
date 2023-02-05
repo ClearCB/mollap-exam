@@ -2,14 +2,12 @@ package edu.craptocraft.mollap.administrator;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 
 import edu.craptocraft.mollap.filters.Authoritation;
 import edu.craptocraft.mollap.filters.Filter;
-import edu.craptocraft.mollap.targets.Target;
 
 
 public class TasksTest {

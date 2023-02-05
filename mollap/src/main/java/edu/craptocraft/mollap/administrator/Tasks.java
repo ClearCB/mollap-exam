@@ -8,12 +8,12 @@ import edu.craptocraft.mollap.targets.Target;
 
 public class Tasks {
     private List<Filter> tasksToDo = new ArrayList<Filter>();
-    private Target target = null;
+    private Target target;
 
     public Tasks(){
-        
+        this.target = null;
     }
-    
+
     public void setTarget(Target targetFocus){
         this.target = targetFocus;
     } 
@@ -37,7 +37,7 @@ public class Tasks {
             this.getTasks().get(i).execution(id);
         }
 
-        this.getTarget().execution(id);;
+        this.getTarget().execution(id);
     }
 
 }
